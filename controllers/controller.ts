@@ -18,11 +18,11 @@ function startRocket1(){
 //Launch Rocket 2
 function startRocket2(){
 
-    rocketOne ='LDSFJA32';
+    rocketTwo='LDSFJA32';
    
 
     console.log(rocketOne);
-    document.getElementById("rocket2Name").innerHTML ="Rocket "+ rocketTwo + " has 3 Thrusters";
+    document.getElementById("rocket2Name").innerHTML ="Rocket "+ rocketTwo + " has 6 Thrusters";
   
 
 }
