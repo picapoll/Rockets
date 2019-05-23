@@ -6,6 +6,7 @@ var rocketOnePower = [0, 0, 0];
 var rocketOnePowerMax = [10, 30, 80];
 var rocketTwoPower = [0, 0, 0, 0, 0, 0];
 var rocketTwoPowerMax = [30, 40, 50, 50, 30, 10];
+var rocketTwo;
 //Rockets Names 
 var rocket;
 var power = 10;
