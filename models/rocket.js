@@ -1,12 +1,11 @@
 "use strict";
-var Car = /** @class */ (function () {
-    function Car(name, maxPower) {
+var Rocket = /** @class */ (function () {
+    function Rocket(name) {
         this.engines = new Array();
         this.name = name;
-        this.maxPower = maxPower;
     }
-    Car.prototype.addEngine = function (engine) {
+    Rocket.prototype.addEngine = function (engine) {
         this.engines.push(engine);
     };
-    return Car;
+    return Rocket;
 }());

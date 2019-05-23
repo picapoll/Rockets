@@ -1,15 +1,12 @@
-class Car{
+class Rocket{
     name:string;
-    maxPower:string;
-    engines:engine[]=new Array();
+    engines:Engine[]=new Array();
     
-    constructor(name:string,maxPower:string){
-        this.name=name;
-        this.maxPower=maxPower;
-        
+    constructor(name:string){
+        this.name=name;        
     }
     
-    addEngine(engine:engine):void{
+    addEngine(engine:Engine):void{
         this.engines.push(engine);
     }
 }
